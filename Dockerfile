@@ -10,6 +10,8 @@ RUN npm install -g react-native-cli
 
 USER circleci
 
+RUN sdkmanager --update && yes | sdkmanager --licenses
+
 RUN sdkmanager "build-tools;23.0.1"
 
 RUN sdkmanager "platforms;android-23"
