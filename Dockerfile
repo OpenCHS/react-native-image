@@ -14,7 +14,7 @@ RUN sdkmanager "build-tools;23.0.1"
 
 RUN sdkmanager "platforms;android-23"
 
-RUN sdkmanager "platforms;android-26" "build-tools;26.0.2"
+RUN sdkmanager "platforms;android-26" "build-tools;26.0.2" "build-tools;28.0.3"
 
 USER root
 
