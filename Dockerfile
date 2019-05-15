@@ -4,7 +4,7 @@ USER root
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
-RUN apt-get install nodejs build-essential make
+RUN apt-get install nodejs build-essential make vi
 
 RUN npm install -g react-native-cli
 
