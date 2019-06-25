@@ -4,7 +4,7 @@ USER root
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
-RUN apt-get install nodejs && sudo npm install -g n && sudo n 8.5.0
+RUN apt-get install nodejs && sudo npm install -g n && sudo n 8.5.0 && sudo npm install --global npm@6.9.0
 
 RUN apt-get install build-essential make nano
 
